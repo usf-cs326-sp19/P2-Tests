@@ -5,7 +5,7 @@ set -o history    # Your shell can ignore this
 set -o histexpand # Your shell can ignore this
 ls -1 -t -r /
 !!
-uptime
+uname -a
 !!
 oeiwiowejweo
 !!
