@@ -135,7 +135,9 @@ echo Command 131 > /dev/null
 echo Command 132 > /dev/null
 echo Command 133 > /dev/null
 echo Command 134 > /dev/null
-echo Command 135 > /dev/null
+sleep 1 &
+sleep 1 &
+jobs
 echo Command 136 > /dev/null
 echo Command 137 > /dev/null
 echo Command 138 > /dev/null
@@ -603,14 +605,15 @@ echo Command 599 > /dev/null
 echo Command 600 > /dev/null
 echo Command 601 > /dev/null
 echo Command 602 > /dev/null
-echo Command 603 > /dev/null
+echo "$PATH"
+echo $SHELL
 echo Command 604 > /dev/null
 echo Command 605 > /dev/null
 echo Command 606 > /dev/null
 echo Command 607 > /dev/null
 echo Command 608 > /dev/null
 echo Command 609 > /dev/null
-echo Command 610 > /dev/null
+echo 'Command 610!!!!!'
 echo Command 611 > /dev/null
 echo Command 612 > /dev/null
 echo Command 613 > /dev/null
@@ -643,7 +646,6 @@ cd
 setenv test test
 ls -1 / | sort
 cat /etc/passwd | sort | sed s/:.*//
-cat /etc/passwd | sort | sed s/:.*// | grep $(whoami)
 cat /etc/passwd | sort | grep s | sed s/:.*// | tail -n 3 | head -n 2
 echo hi | cat | cat | cat | cat | sed s/h/y/g | sed s/i/o/g | shuf
 !!
