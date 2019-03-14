@@ -10,7 +10,7 @@ echo Line 2 #There's nothing here! #  echo No way
 EOM
 )
 
-test_start "Testing comment support"
+test_start "Comment support"
 
 # ---------- Test Script ----------
 echo "${script}"

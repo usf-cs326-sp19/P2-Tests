@@ -8,7 +8,7 @@ echo definitely isn't working!
 EOM
 )
 
-test_start "Testing the 'exit' built-in command"
+test_start "'exit' built-in command"
 
 # ---------- Test Script ----------
 echo "${script}"

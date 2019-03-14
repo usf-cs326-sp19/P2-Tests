@@ -17,7 +17,7 @@ pwd
 EOM
 )
 
-test_start "Testing the 'cd' built-in command"
+test_start "'cd' built-in command"
 
 # ---------- Test Script ----------
 echo "${script}"

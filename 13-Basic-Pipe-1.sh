@@ -5,7 +5,7 @@ ls -1 / | sort
 EOM
 )
 
-test_start ""
+test_start "Basic pipe support (single pipe)"
 
 # ---------- Test Script ----------
 echo "${script}"

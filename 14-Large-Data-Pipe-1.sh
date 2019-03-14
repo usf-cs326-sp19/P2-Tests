@@ -5,7 +5,7 @@ seq 10000000 | wc -l
 EOM
 )
 
-test_start ""
+test_start "Pipe with a large amount of lines"
 
 # ---------- Test Script ----------
 echo "${script}"

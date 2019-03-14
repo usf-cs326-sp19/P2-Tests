@@ -10,7 +10,7 @@ ${TEST_DIR}/scripts/kill-parent.sh
 EOM
 )
 
-test_start "History Execution !!"
+test_start "Background job support"
 
 # ---------- Test Script ----------
 echo "${script}"

@@ -11,7 +11,7 @@ echo hi | cat | cat | cat | cat | sed s/h/y/g | sed s/i/o/g | shuf
 EOM
 )
 
-test_start ""
+test_start "Long pipeline (several pipes in a single command)"
 
 # ---------- Test Script ----------
 echo "${script}"

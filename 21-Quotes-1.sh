@@ -14,7 +14,7 @@ echo 'Are they "amazing" or what?!'
 EOM
 )
 
-test_start "Environment Variable Expansion"
+test_start "Quote support"
 
 # ---------- Test Script ----------
 echo "${script}"

@@ -11,7 +11,7 @@ echo "! $END !"
 EOM
 )
 
-test_start "Environment Variable Expansion"
+test_start "Environment Variable Expansion with Quotes"
 
 # ---------- Test Script ----------
 echo "${script}"

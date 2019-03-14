@@ -21,7 +21,7 @@ sleep 450
 EOM
 )
 
-test_start "History Execution !!"
+test_start "Background job list"
 
 # ---------- Test Script ----------
 echo "${script}"

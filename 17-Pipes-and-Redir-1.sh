@@ -8,7 +8,7 @@ rm ${TEST_DIR}/mega-output.txt
 EOM
 )
 
-test_start ""
+test_start "Piping and redirecting a whole, whole lot of times..."
 
 # (script hidden for brevity)
 

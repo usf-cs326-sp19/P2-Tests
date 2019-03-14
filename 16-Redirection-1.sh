@@ -14,7 +14,7 @@ rm -f ${TEST_DIR}/testfile1 ${TEST_DIR}/testfile2
 EOM
 )
 
-test_start ""
+test_start "Output redirection"
 
 # ---------- Test Script ----------
 echo "${script}"
