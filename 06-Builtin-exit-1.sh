@@ -1,7 +1,8 @@
 source "${TEST_DIR}/funcs.bash"
 
 script=$(cat <<EOM
-echo Easiest point ever!
+echo Easiest point...
+echo ...ever!
 exit
 echo If this prints, then exit
 echo definitely isn't working!

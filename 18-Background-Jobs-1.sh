@@ -16,7 +16,7 @@ test_start "Background job support"
 echo "${script}"
 # -------------- End --------------
 
-actual=$(timeout 1 ./$SHELL_NAME < <(echo "${script}") 2> /dev/null)
+actual=$(timeout 1 ./$SHELL_NAME < <(echo "${script}") 2> /dev/null) || test_end 1
 
 compare <(echo "Done") <(echo "${actual}")
 
