@@ -92,5 +92,5 @@ compare() {
 }
 
 fake_tty() {
-    script --flush --quiet --command "$(printf "%q " "$@")" /dev/null
+    timeout 5 script --flush --quiet --command "$(printf "%q " "$@")" /dev/null
 }
