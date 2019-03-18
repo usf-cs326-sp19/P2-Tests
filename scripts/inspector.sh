@@ -5,8 +5,6 @@
 cat /proc/sys/kernel/hostname
 echo -n Kernel Version: 
 cat /proc/sys/kernel/osrelease
-echo -n Uptime: 
-uptime -p
 echo Logged in Users:
 who
 
