@@ -1,638 +1,638 @@
 set -o history    # Your shell can ignore this
-echo Command 000 > /dev/null
-echo Command 001 > /dev/null
-echo Command 002 > /dev/null
-echo Command 003 > /dev/null
-echo Command 004 > /dev/null
-echo Command 005 > /dev/null
-echo Command 006 > /dev/null
-echo Command 007 > /dev/null
-echo Command 008 > /dev/null
-echo Command 009 > /dev/null
-echo Command 010 > /dev/null
-echo Command 011 > /dev/null
-echo Command 012 > /dev/null
-echo Command 013 > /dev/null
-echo Command 014 > /dev/null
-echo Command 015 > /dev/null
-echo Command 016 > /dev/null
-echo Command 017 > /dev/null
-echo Command 018 > /dev/null
-echo Command 019 > /dev/null
-echo Command 020 > /dev/null
-echo Command 021 > /dev/null
-echo Command 022 > /dev/null
-echo Command 023 > /dev/null
-echo Command 024 > /dev/null
-echo Command 025 > /dev/null
-echo Command 026 > /dev/null
-echo Command 027 > /dev/null
-echo Command 028 > /dev/null
-echo Command 029 > /dev/null
-echo Command 030 > /dev/null
-echo Command 031 > /dev/null
-echo Command 032 > /dev/null
-echo Command 033 > /dev/null
-echo Command 034 > /dev/null
-echo Command 035 > /dev/null
-echo Command 036 > /dev/null
-echo Command 037 > /dev/null
-echo Command 038 > /dev/null
-echo Command 039 > /dev/null
-echo Command 040 > /dev/null
-echo Command 041 > /dev/null
-echo Command 042 > /dev/null
-echo Command 043 > /dev/null
-echo Command 044 > /dev/null
-echo Command 045 > /dev/null
-echo Command 046 > /dev/null
-echo Command 047 > /dev/null
-echo Command 048 > /dev/null
-echo Command 049 > /dev/null
-echo Command 050 > /dev/null
-echo Command 051 > /dev/null
-echo Command 052 > /dev/null
-echo Command 053 > /dev/null
-echo Command 054 > /dev/null
-echo Command 055 > /dev/null
-echo Command 056 > /dev/null
-echo Command 057 > /dev/null
-echo Command 058 > /dev/null
-echo Command 059 > /dev/null
-echo Command 060 > /dev/null
-echo Command 061 > /dev/null
-echo Command 062 > /dev/null
-echo Command 063 > /dev/null
-echo Command 064 > /dev/null
-echo Command 065 > /dev/null
-echo Command 066 > /dev/null
-echo Command 067 > /dev/null
-echo Command 068 > /dev/null
-echo Command 069 > /dev/null
-echo Command 070 > /dev/null
-echo Command 071 > /dev/null
-echo Command 072 > /dev/null
-echo Command 073 > /dev/null
-echo Command 074 > /dev/null
-echo Command 075 > /dev/null
-echo Command 076 > /dev/null
-echo Command 077 > /dev/null
-echo Command 078 > /dev/null
-echo Command 079 > /dev/null
-echo Command 080 > /dev/null
-echo Command 081 > /dev/null
-echo Command 082 > /dev/null
-echo Command 083 > /dev/null
-echo Command 084 > /dev/null
-echo Command 085 > /dev/null
-echo Command 086 > /dev/null
-echo Command 087 > /dev/null
-echo Command 088 > /dev/null
-echo Command 089 > /dev/null
-echo Command 090 > /dev/null
-echo Command 091 > /dev/null
-echo Command 092 > /dev/null
-echo Command 093 > /dev/null
-echo Command 094 > /dev/null
-echo Command 095 > /dev/null
-echo Command 096 > /dev/null
-echo Command 097 > /dev/null
-echo Command 098 > /dev/null
-echo Command 099 > /dev/null
-echo Command 100 > /dev/null
-echo Command 101 > /dev/null
-echo Command 102 > /dev/null
-echo Command 103 > /dev/null
-echo Command 104 > /dev/null
-echo Command 105 > /dev/null
-echo Command 106 > /dev/null
-echo Command 107 > /dev/null
-echo Command 108 > /dev/null
-echo Command 109 > /dev/null
-echo Command 110 > /dev/null
-echo Command 111 > /dev/null
-echo Command 112 > /dev/null
-echo Command 113 > /dev/null
-echo Command 114 > /dev/null
-echo Command 115 > /dev/null
-echo Command 116 > /dev/null
-echo Command 117 > /dev/null
-echo Command 118 > /dev/null
-echo Command 119 > /dev/null
-echo Command 120 > /dev/null
-echo Command 121 > /dev/null
-echo Command 122 > /dev/null
-echo Command 123 > /dev/null
-echo Command 124 > /dev/null
-echo Command 125 > /dev/null
-echo Command 126 > /dev/null
-echo Command 127 > /dev/null
-echo Command 128 > /dev/null
-echo Command 129 > /dev/null
-echo Command 130 > /dev/null
-echo Command 131 > /dev/null
-echo Command 132 > /dev/null
-echo Command 133 > /dev/null
-echo Command 134 > /dev/null
-echo Command 135 > /dev/null
-echo Command 136 > /dev/null
-echo Command 137 > /dev/null
-echo Command 138 > /dev/null
-echo Command 139 > /dev/null
-echo Command 140 > /dev/null
-echo Command 141 > /dev/null
-echo Command 142 > /dev/null
-echo Command 143 > /dev/null
-echo Command 144 > /dev/null
-echo Command 145 > /dev/null
-echo Command 146 > /dev/null
-echo Command 147 > /dev/null
-echo Command 148 > /dev/null
-echo Command 149 > /dev/null
-echo Command 150 > /dev/null
-echo Command 151 > /dev/null
-echo Command 152 > /dev/null
-echo Command 153 > /dev/null
-echo Command 154 > /dev/null
-echo Command 155 > /dev/null
-echo Command 156 > /dev/null
-echo Command 157 > /dev/null
-echo Command 158 > /dev/null
-echo Command 159 > /dev/null
-echo Command 160 > /dev/null
-echo Command 161 > /dev/null
-echo Command 162 > /dev/null
-echo Command 163 > /dev/null
-echo Command 164 > /dev/null
-echo Command 165 > /dev/null
-echo Command 166 > /dev/null
-echo Command 167 > /dev/null
-echo Command 168 > /dev/null
-echo Command 169 > /dev/null
-echo Command 170 > /dev/null
-echo Command 171 > /dev/null
-echo Command 172 > /dev/null
-echo Command 173 > /dev/null
-echo Command 174 > /dev/null
-echo Command 175 > /dev/null
-echo Command 176 > /dev/null
-echo Command 177 > /dev/null
-echo Command 178 > /dev/null
-echo Command 179 > /dev/null
-echo Command 180 > /dev/null
-echo Command 181 > /dev/null
-echo Command 182 > /dev/null
-echo Command 183 > /dev/null
-echo Command 184 > /dev/null
-echo Command 185 > /dev/null
-echo Command 186 > /dev/null
-echo Command 187 > /dev/null
-echo Command 188 > /dev/null
-echo Command 189 > /dev/null
-echo Command 190 > /dev/null
-echo Command 191 > /dev/null
-echo Command 192 > /dev/null
-echo Command 193 > /dev/null
-echo Command 194 > /dev/null
-echo Command 195 > /dev/null
-echo Command 196 > /dev/null
-echo Command 197 > /dev/null
-echo Command 198 > /dev/null
-echo Command 199 > /dev/null
-echo Command 200 > /dev/null
-echo Command 201 > /dev/null
-echo Command 202 > /dev/null
-echo Command 203 > /dev/null
-echo Command 204 > /dev/null
-echo Command 205 > /dev/null
-echo Command 206 > /dev/null
-echo Command 207 > /dev/null
-echo Command 208 > /dev/null
-echo Command 209 > /dev/null
-echo Command 210 > /dev/null
-echo Command 211 > /dev/null
-echo Command 212 > /dev/null
-echo Command 213 > /dev/null
-echo Command 214 > /dev/null
-echo Command 215 > /dev/null
-echo Command 216 > /dev/null
-echo Command 217 > /dev/null
-echo Command 218 > /dev/null
-echo Command 219 > /dev/null
-echo Command 220 > /dev/null
-echo Command 221 > /dev/null
-echo Command 222 > /dev/null
-echo Command 223 > /dev/null
-echo Command 224 > /dev/null
-echo Command 225 > /dev/null
-echo Command 226 > /dev/null
-echo Command 227 > /dev/null
-echo Command 228 > /dev/null
-echo Command 229 > /dev/null
-echo Command 230 > /dev/null
-echo Command 231 > /dev/null
-echo Command 232 > /dev/null
-echo Command 233 > /dev/null
-echo Command 234 > /dev/null
-echo Command 235 > /dev/null
-echo Command 236 > /dev/null
-echo Command 237 > /dev/null
-echo Command 238 > /dev/null
-echo Command 239 > /dev/null
-echo Command 240 > /dev/null
-echo Command 241 > /dev/null
-echo Command 242 > /dev/null
-echo Command 243 > /dev/null
-echo Command 244 > /dev/null
-echo Command 245 > /dev/null
-echo Command 246 > /dev/null
-echo Command 247 > /dev/null
-echo Command 248 > /dev/null
-echo Command 249 > /dev/null
-echo Command 250 > /dev/null
-echo Command 251 > /dev/null
-echo Command 252 > /dev/null
-echo Command 253 > /dev/null
-echo Command 254 > /dev/null
-echo Command 255 > /dev/null
-echo Command 256 > /dev/null
-echo Command 257 > /dev/null
-echo Command 258 > /dev/null
-echo Command 259 > /dev/null
-echo Command 260 > /dev/null
-echo Command 261 > /dev/null
-echo Command 262 > /dev/null
-echo Command 263 > /dev/null
-echo Command 264 > /dev/null
-echo Command 265 > /dev/null
-echo Command 266 > /dev/null
-echo Command 267 > /dev/null
-echo Command 268 > /dev/null
-echo Command 269 > /dev/null
-echo Command 270 > /dev/null
-echo Command 271 > /dev/null
-echo Command 272 > /dev/null
-echo Command 273 > /dev/null
-echo Command 274 > /dev/null
-echo Command 275 > /dev/null
-echo Command 276 > /dev/null
-echo Command 277 > /dev/null
-echo Command 278 > /dev/null
-echo Command 279 > /dev/null
-echo Command 280 > /dev/null
-echo Command 281 > /dev/null
-echo Command 282 > /dev/null
-echo Command 283 > /dev/null
-echo Command 284 > /dev/null
-echo Command 285 > /dev/null
-echo Command 286 > /dev/null
-echo Command 287 > /dev/null
-echo Command 288 > /dev/null
-echo Command 289 > /dev/null
-echo Command 290 > /dev/null
-echo Command 291 > /dev/null
-echo Command 292 > /dev/null
-echo Command 293 > /dev/null
-echo Command 294 > /dev/null
-echo Command 295 > /dev/null
-echo Command 296 > /dev/null
-echo Command 297 > /dev/null
-echo Command 298 > /dev/null
-echo Command 299 > /dev/null
-echo Command 300 > /dev/null
-echo Command 301 > /dev/null
-echo Command 302 > /dev/null
-echo Command 303 > /dev/null
-echo Command 304 > /dev/null
-echo Command 305 > /dev/null
-echo Command 306 > /dev/null
-echo Command 307 > /dev/null
-echo Command 308 > /dev/null
-echo Command 309 > /dev/null
-echo Command 310 > /dev/null
-echo Command 311 > /dev/null
-echo Command 312 > /dev/null
-echo Command 313 > /dev/null
-echo Command 314 > /dev/null
-echo Command 315 > /dev/null
-echo Command 316 > /dev/null
-echo Command 317 > /dev/null
-echo Command 318 > /dev/null
-echo Command 319 > /dev/null
-echo Command 320 > /dev/null
-echo Command 321 > /dev/null
-echo Command 322 > /dev/null
-echo Command 323 > /dev/null
-echo Command 324 > /dev/null
-echo Command 325 > /dev/null
-echo Command 326 > /dev/null
-echo Command 327 > /dev/null
-echo Command 328 > /dev/null
-echo Command 329 > /dev/null
-echo Command 330 > /dev/null
-echo Command 331 > /dev/null
-echo Command 332 > /dev/null
-echo Command 333 > /dev/null
-echo Command 334 > /dev/null
-echo Command 335 > /dev/null
-echo Command 336 > /dev/null
-echo Command 337 > /dev/null
-echo Command 338 > /dev/null
-echo Command 339 > /dev/null
-echo Command 340 > /dev/null
-echo Command 341 > /dev/null
-echo Command 342 > /dev/null
-echo Command 343 > /dev/null
-echo Command 344 > /dev/null
-echo Command 345 > /dev/null
-echo Command 346 > /dev/null
-echo Command 347 > /dev/null
-echo Command 348 > /dev/null
-echo Command 349 > /dev/null
-echo Command 350 > /dev/null
-echo Command 351 > /dev/null
-echo Command 352 > /dev/null
-echo Command 353 > /dev/null
-echo Command 354 > /dev/null
-echo Command 355 > /dev/null
-echo Command 356 > /dev/null
-echo Command 357 > /dev/null
-echo Command 358 > /dev/null
-echo Command 359 > /dev/null
-echo Command 360 > /dev/null
-echo Command 361 > /dev/null
-echo Command 362 > /dev/null
-echo Command 363 > /dev/null
-echo Command 364 > /dev/null
-echo Command 365 > /dev/null
-echo Command 366 > /dev/null
-echo Command 367 > /dev/null
-echo Command 368 > /dev/null
-echo Command 369 > /dev/null
-echo Command 370 > /dev/null
-echo Command 371 > /dev/null
-echo Command 372 > /dev/null
-echo Command 373 > /dev/null
-echo Command 374 > /dev/null
-echo Command 375 > /dev/null
-echo Command 376 > /dev/null
-echo Command 377 > /dev/null
-echo Command 378 > /dev/null
-echo Command 379 > /dev/null
-echo Command 380 > /dev/null
-echo Command 381 > /dev/null
-echo Command 382 > /dev/null
-echo Command 383 > /dev/null
-echo Command 384 > /dev/null
-echo Command 385 > /dev/null
-echo Command 386 > /dev/null
-echo Command 387 > /dev/null
-echo Command 388 > /dev/null
-echo Command 389 > /dev/null
-echo Command 390 > /dev/null
-echo Command 391 > /dev/null
-echo Command 392 > /dev/null
-echo Command 393 > /dev/null
-echo Command 394 > /dev/null
-echo Command 395 > /dev/null
-echo Command 396 > /dev/null
-echo Command 397 > /dev/null
-echo Command 398 > /dev/null
-echo Command 399 > /dev/null
-echo Command 400 > /dev/null
-echo Command 401 > /dev/null
-echo Command 402 > /dev/null
-echo Command 403 > /dev/null
-echo Command 404 > /dev/null
-echo Command 405 > /dev/null
-echo Command 406 > /dev/null
-echo Command 407 > /dev/null
-echo Command 408 > /dev/null
-echo Command 409 > /dev/null
-echo Command 410 > /dev/null
-echo Command 411 > /dev/null
-echo Command 412 > /dev/null
-echo Command 413 > /dev/null
-echo Command 414 > /dev/null
-echo Command 415 > /dev/null
-echo Command 416 > /dev/null
-echo Command 417 > /dev/null
-echo Command 418 > /dev/null
-echo Command 419 > /dev/null
-echo Command 420 > /dev/null
-echo Command 421 > /dev/null
-echo Command 422 > /dev/null
-echo Command 423 > /dev/null
-echo Command 424 > /dev/null
-echo Command 425 > /dev/null
-echo Command 426 > /dev/null
-echo Command 427 > /dev/null
-echo Command 428 > /dev/null
-echo Command 429 > /dev/null
-echo Command 430 > /dev/null
-echo Command 431 > /dev/null
-echo Command 432 > /dev/null
-echo Command 433 > /dev/null
-echo Command 434 > /dev/null
-echo Command 435 > /dev/null
-echo Command 436 > /dev/null
-echo Command 437 > /dev/null
-echo Command 438 > /dev/null
-echo Command 439 > /dev/null
-echo Command 440 > /dev/null
-echo Command 441 > /dev/null
-echo Command 442 > /dev/null
-echo Command 443 > /dev/null
-echo Command 444 > /dev/null
-echo Command 445 > /dev/null
-echo Command 446 > /dev/null
-echo Command 447 > /dev/null
-echo Command 448 > /dev/null
-echo Command 449 > /dev/null
-echo Command 450 > /dev/null
-echo Command 451 > /dev/null
-echo Command 452 > /dev/null
-echo Command 453 > /dev/null
-echo Command 454 > /dev/null
-echo Command 455 > /dev/null
-echo Command 456 > /dev/null
-echo Command 457 > /dev/null
-echo Command 458 > /dev/null
-echo Command 459 > /dev/null
-echo Command 460 > /dev/null
-echo Command 461 > /dev/null
-echo Command 462 > /dev/null
-echo Command 463 > /dev/null
-echo Command 464 > /dev/null
-echo Command 465 > /dev/null
-echo Command 466 > /dev/null
-echo Command 467 > /dev/null
-echo Command 468 > /dev/null
-echo Command 469 > /dev/null
-echo Command 470 > /dev/null
-echo Command 471 > /dev/null
-echo Command 472 > /dev/null
-echo Command 473 > /dev/null
-echo Command 474 > /dev/null
-echo Command 475 > /dev/null
-echo Command 476 > /dev/null
-echo Command 477 > /dev/null
-echo Command 478 > /dev/null
-echo Command 479 > /dev/null
-echo Command 480 > /dev/null
-echo Command 481 > /dev/null
-echo Command 482 > /dev/null
-echo Command 483 > /dev/null
-echo Command 484 > /dev/null
-echo Command 485 > /dev/null
-echo Command 486 > /dev/null
-echo Command 487 > /dev/null
-echo Command 488 > /dev/null
-echo Command 489 > /dev/null
-echo Command 490 > /dev/null
-echo Command 491 > /dev/null
-echo Command 492 > /dev/null
-echo Command 493 > /dev/null
-echo Command 494 > /dev/null
-echo Command 495 > /dev/null
-echo Command 496 > /dev/null
-echo Command 497 > /dev/null
-echo Command 498 > /dev/null
-echo Command 499 > /dev/null
-echo Command 500 > /dev/null
-echo Command 501 > /dev/null
-echo Command 502 > /dev/null
-echo Command 503 > /dev/null
-echo Command 504 > /dev/null
-echo Command 505 > /dev/null
-echo Command 506 > /dev/null
-echo Command 507 > /dev/null
-echo Command 508 > /dev/null
-echo Command 509 > /dev/null
-echo Command 510 > /dev/null
-echo Command 511 > /dev/null
-echo Command 512 > /dev/null
-echo Command 513 > /dev/null
-echo Command 514 > /dev/null
-echo Command 515 > /dev/null
-echo Command 516 > /dev/null
-echo Command 517 > /dev/null
-echo Command 518 > /dev/null
-echo Command 519 > /dev/null
-echo Command 520 > /dev/null
-echo Command 521 > /dev/null
-echo Command 522 > /dev/null
-echo Command 523 > /dev/null
-echo Command 524 > /dev/null
-echo Command 525 > /dev/null
-echo Command 526 > /dev/null
-echo Command 527 > /dev/null
-echo Command 528 > /dev/null
-echo Command 529 > /dev/null
-echo Command 530 > /dev/null
-echo Command 531 > /dev/null
-echo Command 532 > /dev/null
-echo Command 533 > /dev/null
-echo Command 534 > /dev/null
-echo Command 535 > /dev/null
-echo Command 536 > /dev/null
-echo Command 537 > /dev/null
-echo Command 538 > /dev/null
-echo Command 539 > /dev/null
-echo Command 540 > /dev/null
-echo Command 541 > /dev/null
-echo Command 542 > /dev/null
-echo Command 543 > /dev/null
-echo Command 544 > /dev/null
-echo Command 545 > /dev/null
-echo Command 546 > /dev/null
-echo Command 547 > /dev/null
-echo Command 548 > /dev/null
-echo Command 549 > /dev/null
-echo Command 550 > /dev/null
-echo Command 551 > /dev/null
-echo Command 552 > /dev/null
-echo Command 553 > /dev/null
-echo Command 554 > /dev/null
-echo Command 555 > /dev/null
-echo Command 556 > /dev/null
-echo Command 557 > /dev/null
-echo Command 558 > /dev/null
-echo Command 559 > /dev/null
-echo Command 560 > /dev/null
-echo Command 561 > /dev/null
-echo Command 562 > /dev/null
-echo Command 563 > /dev/null
-echo Command 564 > /dev/null
-echo Command 565 > /dev/null
-echo Command 566 > /dev/null
-echo Command 567 > /dev/null
-echo Command 568 > /dev/null
-echo Command 569 > /dev/null
-echo Command 570 > /dev/null
-echo Command 571 > /dev/null
-echo Command 572 > /dev/null
-echo Command 573 > /dev/null
-echo Command 574 > /dev/null
-echo Command 575 > /dev/null
-echo Command 576 > /dev/null
-echo Command 577 > /dev/null
-echo Command 578 > /dev/null
-echo Command 579 > /dev/null
-echo Command 580 > /dev/null
-echo Command 581 > /dev/null
-echo Command 582 > /dev/null
-echo Command 583 > /dev/null
-echo Command 584 > /dev/null
-echo Command 585 > /dev/null
-echo Command 586 > /dev/null
-echo Command 587 > /dev/null
-echo Command 588 > /dev/null
-echo Command 589 > /dev/null
-echo Command 590 > /dev/null
-echo Command 591 > /dev/null
-echo Command 592 > /dev/null
-echo Command 593 > /dev/null
-echo Command 594 > /dev/null
-echo Command 595 > /dev/null
-echo Command 596 > /dev/null
-echo Command 597 > /dev/null
-echo Command 598 > /dev/null
-echo Command 599 > /dev/null
-echo Command 600 > /dev/null
-echo Command 601 > /dev/null
-echo Command 602 > /dev/null
-echo Command 603 > /dev/null
-echo Command 604 > /dev/null
-echo Command 605 > /dev/null
-echo Command 606 > /dev/null
-echo Command 607 > /dev/null
-echo Command 608 > /dev/null
-echo Command 609 > /dev/null
-echo Command 610 > /dev/null
-echo Command 611 > /dev/null
-echo Command 612 > /dev/null
-echo Command 613 > /dev/null
-echo Command 614 > /dev/null
-echo Command 615 > /dev/null
-echo Command 616 > /dev/null
-echo Command 617 > /dev/null
-echo Command 618 > /dev/null
-echo Command 619 > /dev/null
-echo Command 620 > /dev/null
-echo Command 621 > /dev/null
-echo Command 622 > /dev/null
-echo Command 623 > /dev/null # Whoa, look, a comment!
+echo Command 000
+echo Command 001
+echo Command 002
+echo Command 003
+echo Command 004
+echo Command 005
+echo Command 006
+echo Command 007
+echo Command 008
+echo Command 009
+echo Command 010
+echo Command 011
+echo Command 012
+echo Command 013
+echo Command 014
+echo Command 015
+echo Command 016
+echo Command 017
+echo Command 018
+echo Command 019
+echo Command 020
+echo Command 021
+echo Command 022
+echo Command 023
+echo Command 024
+echo Command 025
+echo Command 026
+echo Command 027
+echo Command 028
+echo Command 029
+echo Command 030
+echo Command 031
+echo Command 032
+echo Command 033
+echo Command 034
+echo Command 035
+echo Command 036
+echo Command 037
+echo Command 038
+echo Command 039
+echo Command 040
+echo Command 041
+echo Command 042
+echo Command 043
+echo Command 044
+echo Command 045
+echo Command 046
+echo Command 047
+echo Command 048
+echo Command 049
+echo Command 050
+echo Command 051
+echo Command 052
+echo Command 053
+echo Command 054
+echo Command 055
+echo Command 056
+echo Command 057
+echo Command 058
+echo Command 059
+echo Command 060
+echo Command 061
+echo Command 062
+echo Command 063
+echo Command 064
+echo Command 065
+echo Command 066
+echo Command 067
+echo Command 068
+echo Command 069
+echo Command 070
+echo Command 071
+echo Command 072
+echo Command 073
+echo Command 074
+echo Command 075
+echo Command 076
+echo Command 077
+echo Command 078
+echo Command 079
+echo Command 080
+echo Command 081
+echo Command 082
+echo Command 083
+echo Command 084
+echo Command 085
+echo Command 086
+echo Command 087
+echo Command 088
+echo Command 089
+echo Command 090
+echo Command 091
+echo Command 092
+echo Command 093
+echo Command 094
+echo Command 095
+echo Command 096
+echo Command 097
+echo Command 098
+echo Command 099
+echo Command 100
+echo Command 101
+echo Command 102
+echo Command 103
+echo Command 104
+echo Command 105
+echo Command 106
+echo Command 107
+echo Command 108
+echo Command 109
+echo Command 110
+echo Command 111
+echo Command 112
+echo Command 113
+echo Command 114
+echo Command 115
+echo Command 116
+echo Command 117
+echo Command 118
+echo Command 119
+echo Command 120
+echo Command 121
+echo Command 122
+echo Command 123
+echo Command 124
+echo Command 125
+echo Command 126
+echo Command 127
+echo Command 128
+echo Command 129
+echo Command 130
+echo Command 131
+echo Command 132
+echo Command 133
+echo Command 134
+echo Command 135
+echo Command 136
+echo Command 137
+echo Command 138
+echo Command 139
+echo Command 140
+echo Command 141
+echo Command 142
+echo Command 143
+echo Command 144
+echo Command 145
+echo Command 146
+echo Command 147
+echo Command 148
+echo Command 149
+echo Command 150
+echo Command 151
+echo Command 152
+echo Command 153
+echo Command 154
+echo Command 155
+echo Command 156
+echo Command 157
+echo Command 158
+echo Command 159
+echo Command 160
+echo Command 161
+echo Command 162
+echo Command 163
+echo Command 164
+echo Command 165
+echo Command 166
+echo Command 167
+echo Command 168
+echo Command 169
+echo Command 170
+echo Command 171
+echo Command 172
+echo Command 173
+echo Command 174
+echo Command 175
+echo Command 176
+echo Command 177
+echo Command 178
+echo Command 179
+echo Command 180
+echo Command 181
+echo Command 182
+echo Command 183
+echo Command 184
+echo Command 185
+echo Command 186
+echo Command 187
+echo Command 188
+echo Command 189
+echo Command 190
+echo Command 191
+echo Command 192
+echo Command 193
+echo Command 194
+echo Command 195
+echo Command 196
+echo Command 197
+echo Command 198
+echo Command 199
+echo Command 200
+echo Command 201
+echo Command 202
+echo Command 203
+echo Command 204
+echo Command 205
+echo Command 206
+echo Command 207
+echo Command 208
+echo Command 209
+echo Command 210
+echo Command 211
+echo Command 212
+echo Command 213
+echo Command 214
+echo Command 215
+echo Command 216
+echo Command 217
+echo Command 218
+echo Command 219
+echo Command 220
+echo Command 221
+echo Command 222
+echo Command 223
+echo Command 224
+echo Command 225
+echo Command 226
+echo Command 227
+echo Command 228
+echo Command 229
+echo Command 230
+echo Command 231
+echo Command 232
+echo Command 233
+echo Command 234
+echo Command 235
+echo Command 236
+echo Command 237
+echo Command 238
+echo Command 239
+echo Command 240
+echo Command 241
+echo Command 242
+echo Command 243
+echo Command 244
+echo Command 245
+echo Command 246
+echo Command 247
+echo Command 248
+echo Command 249
+echo Command 250
+echo Command 251
+echo Command 252
+echo Command 253
+echo Command 254
+echo Command 255
+echo Command 256
+echo Command 257
+echo Command 258
+echo Command 259
+echo Command 260
+echo Command 261
+echo Command 262
+echo Command 263
+echo Command 264
+echo Command 265
+echo Command 266
+echo Command 267
+echo Command 268
+echo Command 269
+echo Command 270
+echo Command 271
+echo Command 272
+echo Command 273
+echo Command 274
+echo Command 275
+echo Command 276
+echo Command 277
+echo Command 278
+echo Command 279
+echo Command 280
+echo Command 281
+echo Command 282
+echo Command 283
+echo Command 284
+echo Command 285
+echo Command 286
+echo Command 287
+echo Command 288
+echo Command 289
+echo Command 290
+echo Command 291
+echo Command 292
+echo Command 293
+echo Command 294
+echo Command 295
+echo Command 296
+echo Command 297
+echo Command 298
+echo Command 299
+echo Command 300
+echo Command 301
+echo Command 302
+echo Command 303
+echo Command 304
+echo Command 305
+echo Command 306
+echo Command 307
+echo Command 308
+echo Command 309
+echo Command 310
+echo Command 311
+echo Command 312
+echo Command 313
+echo Command 314
+echo Command 315
+echo Command 316
+echo Command 317
+echo Command 318
+echo Command 319
+echo Command 320
+echo Command 321
+echo Command 322
+echo Command 323
+echo Command 324
+echo Command 325
+echo Command 326
+echo Command 327
+echo Command 328
+echo Command 329
+echo Command 330
+echo Command 331
+echo Command 332
+echo Command 333
+echo Command 334
+echo Command 335
+echo Command 336
+echo Command 337
+echo Command 338
+echo Command 339
+echo Command 340
+echo Command 341
+echo Command 342
+echo Command 343
+echo Command 344
+echo Command 345
+echo Command 346
+echo Command 347
+echo Command 348
+echo Command 349
+echo Command 350
+echo Command 351
+echo Command 352
+echo Command 353
+echo Command 354
+echo Command 355
+echo Command 356
+echo Command 357
+echo Command 358
+echo Command 359
+echo Command 360
+echo Command 361
+echo Command 362
+echo Command 363
+echo Command 364
+echo Command 365
+echo Command 366
+echo Command 367
+echo Command 368
+echo Command 369
+echo Command 370
+echo Command 371
+echo Command 372
+echo Command 373
+echo Command 374
+echo Command 375
+echo Command 376
+echo Command 377
+echo Command 378
+echo Command 379
+echo Command 380
+echo Command 381
+echo Command 382
+echo Command 383
+echo Command 384
+echo Command 385
+echo Command 386
+echo Command 387
+echo Command 388
+echo Command 389
+echo Command 390
+echo Command 391
+echo Command 392
+echo Command 393
+echo Command 394
+echo Command 395
+echo Command 396
+echo Command 397
+echo Command 398
+echo Command 399
+echo Command 400
+echo Command 401
+echo Command 402
+echo Command 403
+echo Command 404
+echo Command 405
+echo Command 406
+echo Command 407
+echo Command 408
+echo Command 409
+echo Command 410
+echo Command 411
+echo Command 412
+echo Command 413
+echo Command 414
+echo Command 415
+echo Command 416
+echo Command 417
+echo Command 418
+echo Command 419
+echo Command 420
+echo Command 421
+echo Command 422
+echo Command 423
+echo Command 424
+echo Command 425
+echo Command 426
+echo Command 427
+echo Command 428
+echo Command 429
+echo Command 430
+echo Command 431
+echo Command 432
+echo Command 433
+echo Command 434
+echo Command 435
+echo Command 436
+echo Command 437
+echo Command 438
+echo Command 439
+echo Command 440
+echo Command 441
+echo Command 442
+echo Command 443
+echo Command 444
+echo Command 445
+echo Command 446
+echo Command 447
+echo Command 448
+echo Command 449
+echo Command 450
+echo Command 451
+echo Command 452
+echo Command 453
+echo Command 454
+echo Command 455
+echo Command 456
+echo Command 457
+echo Command 458
+echo Command 459
+echo Command 460
+echo Command 461
+echo Command 462
+echo Command 463
+echo Command 464
+echo Command 465
+echo Command 466
+echo Command 467
+echo Command 468
+echo Command 469
+echo Command 470
+echo Command 471
+echo Command 472
+echo Command 473
+echo Command 474
+echo Command 475
+echo Command 476
+echo Command 477
+echo Command 478
+echo Command 479
+echo Command 480
+echo Command 481
+echo Command 482
+echo Command 483
+echo Command 484
+echo Command 485
+echo Command 486
+echo Command 487
+echo Command 488
+echo Command 489
+echo Command 490
+echo Command 491
+echo Command 492
+echo Command 493
+echo Command 494
+echo Command 495
+echo Command 496
+echo Command 497
+echo Command 498
+echo Command 499
+echo Command 500
+echo Command 501
+echo Command 502
+echo Command 503
+echo Command 504
+echo Command 505
+echo Command 506
+echo Command 507
+echo Command 508
+echo Command 509
+echo Command 510
+echo Command 511
+echo Command 512
+echo Command 513
+echo Command 514
+echo Command 515
+echo Command 516
+echo Command 517
+echo Command 518
+echo Command 519
+echo Command 520
+echo Command 521
+echo Command 522
+echo Command 523
+echo Command 524
+echo Command 525
+echo Command 526
+echo Command 527
+echo Command 528
+echo Command 529
+echo Command 530
+echo Command 531
+echo Command 532
+echo Command 533
+echo Command 534
+echo Command 535
+echo Command 536
+echo Command 537
+echo Command 538
+echo Command 539
+echo Command 540
+echo Command 541
+echo Command 542
+echo Command 543
+echo Command 544
+echo Command 545
+echo Command 546
+echo Command 547
+echo Command 548
+echo Command 549
+echo Command 550
+echo Command 551
+echo Command 552
+echo Command 553
+echo Command 554
+echo Command 555
+echo Command 556
+echo Command 557
+echo Command 558
+echo Command 559
+echo Command 560
+echo Command 561
+echo Command 562
+echo Command 563
+echo Command 564
+echo Command 565
+echo Command 566
+echo Command 567
+echo Command 568
+echo Command 569
+echo Command 570
+echo Command 571
+echo Command 572
+echo Command 573
+echo Command 574
+echo Command 575
+echo Command 576
+echo Command 577
+echo Command 578
+echo Command 579
+echo Command 580
+echo Command 581
+echo Command 582
+echo Command 583
+echo Command 584
+echo Command 585
+echo Command 586
+echo Command 587
+echo Command 588
+echo Command 589
+echo Command 590
+echo Command 591
+echo Command 592
+echo Command 593
+echo Command 594
+echo Command 595
+echo Command 596
+echo Command 597
+echo Command 598
+echo Command 599
+echo Command 600
+echo Command 601
+echo Command 602
+echo Command 603
+echo Command 604
+echo Command 605
+echo Command 606
+echo Command 607
+echo Command 608
+echo Command 609
+echo Command 610
+echo Command 611
+echo Command 612
+echo Command 613
+echo Command 614
+echo Command 615
+echo Command 616
+echo Command 617
+echo Command 618
+echo Command 619
+echo Command 620
+echo Command 621
+echo Command 622
+echo Command 623 # Whoa, look, a comment!
 # Another neat comment, wowzers.
-echo Command 624 > /dev/null
-echo Command 625 > /dev/null
-echo Command 626 > /dev/null
-echo Command 627 > /dev/null
-echo Command 628 > /dev/null
-echo Command 629 > /dev/null
-echo Command 630 > /dev/null
-echo Command 631 > /dev/null
-echo Command 632 > /dev/null
-echo Command 633 > /dev/null
-echo Command 634 > /dev/null
+echo Command 624
+echo Command 625
+echo Command 626
+echo Command 627
+echo Command 628
+echo Command 629
+echo Command 630
+echo Command 631
+echo Command 632
+echo Command 633
+echo Command 634
 history
