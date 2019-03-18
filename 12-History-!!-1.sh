@@ -22,7 +22,7 @@ echo "${script}"
 
 expected=$(HISTFILE=/dev/null HISTSIZE=100 bash \
     < <(echo "${script}") 2> /dev/null)
-actual=$(./$SHELL_NAME < <(echo "${script}") 2> /dev/null) || test_end
+actual=$(timeout 5 ./$SHELL_NAME < <(echo "${script}") 2> /dev/null) || test_end
 
 compare <(echo "${expected}") <(echo "${actual}")
 

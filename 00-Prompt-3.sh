@@ -14,6 +14,10 @@ EOM
 
 test_start "Prompt. NOTE: will fail if 'cd' is not implemented."
 
+# ---------- Test Script ----------
+echo "${script}"
+# -------------- End --------------
+
 output=$(fake_tty ./$SHELL_NAME < <(echo "${script}") 2> /dev/null)
 
 # Get lines that have a dollar sign. If not found, test fails.
@@ -24,28 +28,28 @@ first=$(echo "${prompt_lines}" | head -n1)
 echo ${first}
 
 # Does it have the username? (test will end if not)
-grep "$(whoami)" <<< "${first}" &> /dev/null || test_end 1
+timeout 2 grep "$(whoami)" <<< "${first}" &> /dev/null || test_end 1
 
 # Does it have the hostname? (test will end if not)
-grep "$(hostname)" <<< "${first}" &> /dev/null || test_end 1
+timeout 2 grep "$(hostname)" <<< "${first}" &> /dev/null || test_end 1
 
 # The first prompt line should have the first command number (0).
-grep "0" <<< "${first}" &> /dev/null || test_end 1
+timeout 2 grep "0" <<< "${first}" &> /dev/null || test_end 1
 
 # Now for the CWD printout. We should be able to find the following directories
 # in the output.
 
-grep '~/shell-test-temporary/a/long/directory' <<< "${prompt_lines}" \
+timeout  2 grep '~/shell-test-temporary/a/long/directory' <<< "${prompt_lines}" \
     || test_end 1
 
-grep "/tmp/home/$(whoami)/test" <<< "${prompt_lines}" \
+timeout 2 grep "/tmp/home/$(whoami)/test" <<< "${prompt_lines}" \
     && grep -v '~' &> /dev/null <<< "${prompt_lines}" \
     || test_end 1
 
-grep '/etc' <<< "${prompt_lines}" && grep -v '~' &>/dev/null \
+timeout 2 grep '/etc' <<< "${prompt_lines}" && grep -v '~' &>/dev/null \
     <<< "${prompt_lines}" || test_end 1
 
-grep '/usr/bin' <<< "${prompt_lines}" && grep -v '~' &>/dev/null \
+timeout 2 grep '/usr/bin' <<< "${prompt_lines}" && grep -v '~' &>/dev/null \
     <<< "${prompt_lines}" || test_end 1
 
 test_end
