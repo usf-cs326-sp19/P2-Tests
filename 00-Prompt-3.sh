@@ -42,14 +42,10 @@ timeout 2 grep "0" <<< "${first}" &> /dev/null || test_end 1
 timeout  2 grep '~/shell-test-temporary/a/long/directory' <<< "${prompt_lines}" \
     || test_end 1
 
-timeout 2 grep "/tmp/home/$(whoami)/test" <<< "${prompt_lines}" \
-    && grep -v '~' &> /dev/null <<< "${prompt_lines}" \
-    || test_end 1
+timeout 2 grep ":/tmp/home/$(whoami)/test" <<< "${prompt_lines}" || test_end 1
 
-timeout 2 grep '/etc' <<< "${prompt_lines}" && grep -v '~' &>/dev/null \
-    <<< "${prompt_lines}" || test_end 1
+timeout 2 grep ':/etc' <<< "${prompt_lines}" || test_end 1
 
-timeout 2 grep '/usr/bin' <<< "${prompt_lines}" && grep -v '~' &>/dev/null \
-    <<< "${prompt_lines}" || test_end 1
+timeout 2 grep ':/usr/bin' <<< "${prompt_lines}" || test_end 1
 
 test_end
