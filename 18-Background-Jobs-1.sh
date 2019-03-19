@@ -1,10 +1,10 @@
 source "${TEST_DIR}/funcs.bash"
 
 script=$(cat <<EOM
-sleep 500 &
-sleep 100 &
-sleep 85 &
-sleep 450 &
+${TEST_DIR}/scripts/sleeper 500 &
+${TEST_DIR}/scripts/sleeper 100 &
+${TEST_DIR}/scripts/sleeper 85 &
+${TEST_DIR}/scripts/sleeper 450 &
 echo Done
 ${TEST_DIR}/scripts/kill-parent.sh
 EOM
