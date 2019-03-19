@@ -2,7 +2,7 @@ set -o history    # Your shell can ignore this
 set -o histexpand # Your shell can ignore this
 echo Command 000
 echo Command 001
-uptime
+uname -a
 echo Command 003
 echo Command 004
 echo Command 005
@@ -425,5 +425,5 @@ echo -----
 !p
 !cat
 !w
-!up
+!un
 !e
