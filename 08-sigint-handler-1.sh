@@ -14,6 +14,6 @@ test_start "^C should be ignored by the shell" \
 
 output=$(timeout 5 ./$SHELL_NAME < <(echo "${script}") 2> /dev/null)
 
-compare --ignore-blank-lines <(echo "It worked") <(echo "${output}")
+compare <(echo "It worked") <(echo "${output}")
 
 test_end
