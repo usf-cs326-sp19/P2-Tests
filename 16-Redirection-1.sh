@@ -14,7 +14,8 @@ rm -f ${TEST_DIR}/testfile1 ${TEST_DIR}/testfile2
 EOM
 )
 
-test_start "Output redirection"
+test_start "Output redirection" \
+    "This test writes several strings to files and ensures their results are correct. It also checks to make sure the permissions are set up correctly with open() -- use 0666."
 
 # ---------- Test Script ----------
 echo "${script}"
